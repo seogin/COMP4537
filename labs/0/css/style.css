@@ -1,0 +1,85 @@
+#button-1 {
+    background-color: white;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 10px;
+    padding-left: 50px;
+    padding-right: 50px;   
+    gap: 5px;
+}
+
+#button-2 {
+    background-color: lightgreen;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 10px;
+    padding-left: 50px;
+    padding-right: 50px;   
+    gap: 5px;
+}
+
+#button-3 {
+    background-color: lightgray;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 10px;
+    padding-left: 50px;
+    padding-right: 50px;   
+    gap: 5px;
+}
+
+#button-4 {
+    background-color: lightpink;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 10px;
+    padding-left: 50px;
+    padding-right: 50px;   
+    gap: 5px;
+}
+
+#button-5 {
+    background-color: lightblue;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 10px;
+    padding-left: 50px;
+    padding-right: 50px;   
+    gap: 5px;
+}
+#button-6 {
+    background-color: lightyellow;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 10px;
+    padding-left: 50px;
+    padding-right: 50px;   
+    gap: 5px;
+}
+#button-7 {
+    background-color: lightcoral;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    gap: 5px;
+}
+
+#buttonContainer{
+  position: relative;
+  width: 100vw;
+  height: calc(100vh - 80px); 
+  overflow: hidden;
+}
+
+/* style.css */
+#buttonContainer button {
+  width: 10em;       
+  height: 5em;
+  box-sizing: border-box; 
+}
+
+.num-hidden { color: transparent; text-shadow: none; }
+
+
