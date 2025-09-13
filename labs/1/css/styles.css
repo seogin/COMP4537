@@ -1,0 +1,18 @@
+/* Minimal styling just to position the time badges and make buttons readable */
+:root { --gap: 0.75rem; }
+body { font-family: system-ui, -apple-system, Segoe UI, Roboto, sans-serif; margin: 1.25rem; }
+header { display: flex; align-items: center; justify-content: space-between; gap: var(--gap); }
+.badge { font-size: 0.9rem; padding: 0.35rem 0.6rem; border: 1px solid #ddd; border-radius: 0.5rem; }
+.actions { display: flex; align-items: center; gap: var(--gap); margin: 1rem 0; }
+.note { display: flex; align-items: flex-start; gap: 0.5rem; margin-bottom: 0.5rem; }
+.note textarea { width: min(800px, 95vw); height: 6rem; padding: 0.5rem; }
+.notes { margin-block: 1rem; }
+footer { margin-top: 2rem; }
+button, a.button {
+  appearance: none; border: 1px solid #ccc; background: #f6f6f6;
+  border-radius: 0.6rem; padding: 0.5rem 0.9rem; text-decoration: none; color: inherit;
+}
+button:hover, a.button:hover { background: #efefef; }
+hr { border: none; border-top: 1px solid #eee; margin: 1rem 0; }
+.small { font-size: 0.9rem; color: #666; }
+h1 { margin: 0 0 0.5rem 0; }

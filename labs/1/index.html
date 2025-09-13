@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Lab 1 Index</title>
+  <link rel="stylesheet" href="css/styles.css" />
+  <script src="lang/messages/en/user.js"></script>
+</head>
+<body>
+  <header>
+    <div>
+      <h1 id="title"></h1>
+      <p id="studentLine" class="small"></p>
+    </div>
+    
+  </header>
+
+  <hr />
+
+  <div class="actions">
+    <a class="button" href="writer.html" id="linkWriter"></a>
+    <a class="button" href="reader.html" id="linkReader"></a>
+  </div>
+
+  <script>
+    // Populate from messages
+    document.getElementById("title").textContent = USER_MESSAGES.INDEX_PAGE_TITLE;
+    document.getElementById("studentLine").innerHTML = USER_MESSAGES.INDEX_STUDENT_LINE;
+    document.getElementById("linkWriter").textContent = USER_MESSAGES.INDEX_LINK_WRITER;
+    document.getElementById("linkReader").textContent = USER_MESSAGES.INDEX_LINK_READER;
+  </script>
+</body>
+</html>
