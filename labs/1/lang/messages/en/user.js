@@ -3,7 +3,7 @@
 (function (global) {
   const USER_MESSAGES = {
     // General / Index
-    INDEX_PAGE_TITLE: "Lab 1: JSON, Object Constructor, localStorage",
+    INDEX_PAGE_TITLE: "Lab 1",
     INDEX_STUDENT_LINE: "Student: Seogin",
     INDEX_LINK_WRITER: "Open Writer",
     INDEX_LINK_READER: "Open Reader",
