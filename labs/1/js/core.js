@@ -192,17 +192,18 @@ class ReaderApp {
     });
   }
 
-  updateRetrieveBadge() {
+  updateRetrieveBadge(time) {
     // Reader shows *when it pulled* the data (not when it was saved)
-    const when = new Date().toLocaleString();
+    const when = time || new Date().toLocaleString();
     this.els.retrieveBadge.textContent = `${this.msg.READER_LAST_RETRIEVED_PREFIX}: ${when}`;
     // (If you wanted the writer's save time, use store.getSavedAt() instead.)
   }
 
   retrieveAndRender() {
     const notes = this.store.load(); // storage -> model
+    // console.log("Reader fetched notes:", notes);
     this.render(notes);              // model -> UI
-    this.updateRetrieveBadge();      // update pull time
+    this.updateRetrieveBadge(this.store.getSavedAt());      // update pull time
   }
 }
 
